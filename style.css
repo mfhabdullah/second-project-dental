@@ -1,0 +1,539 @@
+*{
+    padding-left: 0%;
+    margin: 0%;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 70px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* ---------------top-row---------- */
+.toprow-section {
+    height: 40px;
+    line-height: 40px;
+    background-color: #222222;
+}
+.toprow-section .toprow-parents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.toprow-section .toprow1st li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+    font-size: 10px;
+}
+.toprow1st i{
+    color: #2788e3;
+    font-size: 10px;
+}
+.toprow1st p{
+    color: #fff;
+    font-size: 15px;
+}
+.toprow-section .toprow2nd li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+    font-size: 17px;
+}
+.toprow-section .toprow2nd ul{
+    justify-content: right;
+    display: flex;
+    gap: 5px;
+}
+.toprow2nd i{
+    color: #ffffff;
+    font-size: 10px;
+}
+                /* --------banner-section------ */
+.banner-section {
+    height: 762px;
+    width: 100%;
+    background: url(./img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 30px 0;
+}
+.banner_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-head-button{
+    display: flex;
+    gap: 25px;
+}
+.banner-head-button .btn1{
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    padding: 15px 0px;
+    background-color: #30aad7;
+    border: none;
+    border-radius: 50px; 
+}
+.banner-head-button .btn2{
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    padding: 15px 0px;
+    background-color: #a386ec;
+    border: none;
+    border-radius: 50px; 
+}
+.banner-head-button a{
+    font-size: 16px;
+    color: white;
+}
+.banner-middle{
+    padding: 170px 0;
+}
+.banner-middle h1{
+    font-size: 60px;
+    color: white;
+}
+.banner-middle p{
+    font-size: 18px;
+    padding: 0px 0 20px 0;
+    color: white;
+}
+.banner-section .wri{
+    position: absolute;
+    left: 70px;
+    top: 370px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner-section .container .wri h1 {
+    font-size: 50px;
+}
+.banner-section .wri p{
+    font-size: 15px;
+    text-align: center;
+}
+.banner-section .container .btn3{
+    padding: 10px 25px;
+    background-color: #9b95c9;
+    border-radius: 35px;
+    position: absolute;
+    left: 300px;
+    top: 475px;
+
+}
+.banner-section .container .btn4{
+    padding: 10px 25px;
+    background-color: #30aad7;
+    border-radius: 35px;
+    position: absolute;
+    left: 150px;
+    top: 475px;
+}
+.banner-section .container .btn3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.banner-section .container .btn4 a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.boxes-row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.boxes-row .st{
+    background-color: #61c2ee;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+}
+.boxes-row .nd{
+    background-color: #30aad7;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+}
+.boxes-row .rd{
+    background-color: #005b8b;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+}
+/* -----------------service-section--------------------- */
+.service-section{
+    width: 100%;
+    height: 700px;
+    padding-top:100px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.service-section .container h4{
+    font-size: 50px;
+    color: #005b8b;
+}
+.service-section .container p{
+    font-size: 15px;
+    color: #606060;
+}
+.container .service-box{
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.service-box .f{
+    background-color: aliceblue;
+    width: 350px;
+    height: 260px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.service-box .f h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #606060;
+}
+.service-section .container .tbtn{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    padding: 40px 0;
+}
+.service-section .container .btn5{
+    height: 50px;
+    width: 200px;
+    background-color:#9b95c9;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.service-section .container .btn6{
+    height: 50px;
+    width: 200px;
+    background-color:#61c2ee;
+    border-radius: 50px;
+    text-align: center;
+}
+.service-section .container .btn5 a{
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;;
+}
+.service-section .container .btn6 a {
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+}
+/* ------------manybg-section--------------- */
+.manybg-section{
+    background: url(./img/bg2.png);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.manybg-section .manybg-parents{
+    padding: 150px 0 25px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.manybg-section h4{
+    font-size:50px;
+    color: #005b8b;
+
+}
+.manybg-section p{
+    font-size: 35px;
+    color: #2788e3;
+    padding: 10px 0;
+}
+.manybg-section .p2{
+    font-size: 18px;
+    color: black;
+}
+.manybg-btn .btn7{
+    height: 50px;
+    width: 200px;
+    background-color:#61c2ee;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn7 a{
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+}
+/* ----------------manybg-nd-section----------------- */
+.manybg-nd-section{
+    background: url(./img/bg3.png);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.manybg-nd-man{
+    justify-content: end;
+    display: grid;
+}
+.manybg-nd-section .manybg-nd-parents{
+    padding: 150px 0 25px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.manybg-nd-section h4{
+    font-size:50px;
+    color: #005b8b;
+
+}
+.manybg-nd-section p{
+    font-size: 35px;
+    color: #2788e3;
+    padding: 10px 0;
+}
+.manybg-nd-section .p2{
+    font-size: 18px;
+    color: black;
+}
+.manybg-nd-btn .btn8{
+    height: 50px;
+    width: 200px;
+    background-color:#61c2ee;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn8 a{
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+}
+/* ----------------manybg-rd-section----------------- */
+.manybg-rd-parents{
+    justify-content: center;
+}
+.manybg-rd-section{
+    background-color: #61c2ee;
+    height: 300px;
+
+}
+.manybg-rd-parents{
+    text-align: center;
+    padding: 70px 0 0;
+}
+.manybg-rd-section h4{
+    color: #fff;
+    font-size: 50px;
+}
+.manybg-rd-section p{
+    color:#fff;
+    font-size: 18px;
+}
+.manybg-rd-btn{
+    padding: 20px 0px 0px 410px;
+}
+.manybg-rd-btn .btn9{
+    height: 50px;
+    width: 200px;
+    background-color:#fff;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn9 a{
+    font-size: 15px;
+    color: #61c2ee;
+    line-height: 50px;
+    font-weight: 600;
+}
+/* -------------------manybg-th-section---------------------- */
+.manybg-th-section{
+    background-color: #fff;
+    height: 700%;
+}
+.manybg-th-section .wrie{
+    text-align: center;
+}
+.manybg-th-section .wrie h5{
+    color: #005b8b;
+    font-size: 40px;
+    padding: 90px 0 10px  0;
+}
+.manybg-th-section .wrie p{
+    color:#555555;
+    font-size: 18px;
+}
+.help-service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 0px 0px 100px;
+}
+.help-service .num{
+    display: flex;
+    column-gap: 280px;
+    position: absolute;
+    padding: 10px 0 0 130px;
+}
+.help-service .num .das1{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 33px;
+    color: #fff;
+    background-color: #005b8b;
+    text-align: center;
+}
+.help-service .num .das2{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 33px;
+    color: #fff;
+    background-color: #005b8b;
+    text-align: center;
+}
+.help-service .num .das3{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 33px;
+    color: #fff;
+    background-color: #005b8b;
+    text-align: center;
+}
+.help-service img{
+    padding: 7px 0 0 50px;
+}
+.help-service .help{
+    height: 100px;
+    width: 170px;
+    border-radius: 100px;
+    background-color: #eff9fd;
+    padding: 40px 0 25px 0;
+}
+.help-service-wri{
+    display: flex;
+    column-gap: 155px;
+    padding: 0 110px;
+}
+.help-service-wri h5{
+    color: #555555;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 10px
+
+}
+.help-service-wri p{
+    color: #555555;
+    font-size: 8px;
+    text-align: center;
+}
+.manybg-th-btn{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 100px 0px;
+}
+.manybg-th-btn .btn10{
+    height: 40px;
+    width: 150px;
+    background-color:#61c2ee;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn10 a{
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: 600;
+}
+/* -----------------manybg-frth-section--------------------- */
+.manybg-frth-section{
+    height:480px;
+    background-color:#61c2ee;
+}
+.manybg-frth-main{
+    display: grid;
+    justify-content: center;
+}
+.manybg-frth-head h3{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding:70px 20px 0;
+}
+.manybg-frth-box{
+    width: 880px;
+    height: 260px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px -2px;
+    text-align: center;
+}
+.manybg-frth-box .upo{
+    padding: 50px 0 25px;
+}
+.manybg-frth-box-content{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+}
+.manybg-frth-box .pic-content{
+    color: #555555;
+}
+.manybg-frth-box .pic-content h6{
+    font-size: 18px;
+}
+.manybg-frth-box .pic-content p{
+    font-size: 18px;
+}
+/* ------------------manybg-ffth-section------------ */
+.manybg-ffth-section{
+    height:620px;
+}
+.manybg-ffth-head h4{
+    color:#005b8b;
+    font-size: 50px;
+    text-align: center;
+    padding: 85px 0px 40px 0px ;
+}
+.manybg-ffth-content{
+    display: flex;
+    justify-content: center;
+    column-gap: 65px;
+    font-size: 18px;
+    padding: 0px 0px 110px 0px;
+}
+.manybg-ffth-content .st{
+    
+}
+.manybg-ffth-content .nd{
+    
+}
+.manybg-ffth-content ul li i{
+    color: #30aad7;
+    font-size: 18px;
+}
+.manybg-ffth-content ul li p{
+    display: inline-block;
+}
