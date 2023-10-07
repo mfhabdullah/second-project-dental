@@ -471,6 +471,30 @@ body{
     height:480px;
     background-color:#61c2ee;
 }
+.manybg-frth-section::before{
+    content: "";
+    background-image: url(./img/left-arrow.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    top: 4400px;
+}
+.manybg-frth-section::after{
+    content: "";
+    background-image: url(./img/next-button.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 60px;
+    top: 4400px;
+}
 .manybg-frth-main{
     display: grid;
     justify-content: center;
@@ -491,6 +515,24 @@ body{
 }
 .manybg-frth-box .upo{
     padding: 50px 0 25px;
+}
+.manybg-frth-box .upo::before{
+    content: "";
+    background-image: url(./img/double\ queation-1.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.manybg-frth-box .upo::after{
+    content: "";
+    background-image: url(./img/double\ queation-2.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
 .manybg-frth-box-content{
     display: flex;
