@@ -22,7 +22,7 @@ body{
 .toprow-section {
     height: 40px;
     line-height: 40px;
-    background-color: #222222;
+    background-color: #1b1b1b;
 }
 .toprow-section .toprow-parents{
     display: grid;
@@ -451,7 +451,7 @@ body{
 .manybg-th-btn{
     display: flex;
     justify-content: center;
-    padding: 50px 0px 100px 0px;
+    padding: 50px 50px 100px 0px;
 }
 .manybg-th-btn .btn10{
     height: 40px;
@@ -524,16 +524,196 @@ body{
     font-size: 18px;
     padding: 0px 0px 110px 0px;
 }
-.manybg-ffth-content .st{
-    
-}
-.manybg-ffth-content .nd{
-    
-}
 .manybg-ffth-content ul li i{
     color: #30aad7;
     font-size: 18px;
 }
 .manybg-ffth-content ul li p{
     display: inline-block;
+}
+/* -----------------manybg-sxth-section------------------- */
+.manybg-sxth-section {
+    height: 400px;
+    width: 100%;
+    background-color:#eff9fd ;
+}
+.manybg-sxth-content .manybg-sxth-head h2{
+    text-align: center;
+    color: #005b8b;
+    font-size: 50px;
+    padding: 70px 0px 20px 0px ;
+}
+.manybg-sxth-content .manybg-sxth-head p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 0px 35px 0px;
+}
+.manybg-sxth-btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.manybg-sxth-btn .btn11 a{
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #30aad7;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.manybg-sxth-btn .btn12 a{
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #9b95c9;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* ---------------manybg-svnth-section--------------- */
+.manybg-svnth-section{
+    width: 100%;
+    height: 360px;
+}
+.manybg-svnth-head{
+    text-align: center;
+}
+.manybg-svnth-content .manybg-svnth-head h2{
+    color: #005b8b;
+    font-size: 50px;
+    padding: 70px 0 30px 0;
+}
+.manybg-svnth-content .manybg-svnth-head .kum{
+    font-size: 14px;
+    color: #555555;
+}
+.manybg-svnth-content .manybg-svnth-head .pum{
+    font-size: 14px;
+    color: #555555;
+    padding: 15px 0px 0px 0px;
+}
+.manybg-svnth-content .manybg-svnth-head .pudum .dum a{
+    color: #30aad7;
+    font-size: 10px;
+    font-weight: 700;
+}
+.manybg-svnth-head .pudum .dum{
+    padding: 0px 0px 40px 0px;
+}
+.backgroundimage{
+    text-align: center;
+}
+/* -------------------manybg-eth-section---------------- */
+.manybg-eth-section {
+    height: 310px;
+    width: 100%;
+    background-color:#005b8b ;
+    margin-top: 462px;
+}
+.manybg-eth-content .manybg-eth-head h2{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding: 70px 0px 20px 0px ;
+}
+.manybg-eth-content .manybg-eth-head p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 0px 35px 0px;
+    color: #fff;
+}
+.manybg-eth-btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.manybg-eth-btn .btn13 a{
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #30aad7;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.manybg-eth-btn .btn14 a{
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #9b95c9;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* -----------manybg-nith-section--------------- */
+.manybg-nith-section{
+    background-color: #222222;
+    height:370px;
+}
+.manybg-nith-parents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 0px 0px 0px;
+    column-gap: 140px;
+    color: #bdbdbd;
+}
+.manybg-nith-parents .right img{
+    padding-bottom: 25px;
+}
+.p2top-parents .p2top-r p{
+    font-size: 14px;
+}
+.p2top-parents .p2top-l h5{
+    display: inline-block;
+}
+.p2top-parents .p2top-r p i{
+    color: #30aad7;
+}
+.manybg-nith-parents .left .p2top-parents h4{
+    font-size: 25px;
+}
+.manybg-nith-parents .left .p2top-parents{
+    display: flex;
+    column-gap: 110px;
+    padding-bottom:60px;
+}
+/* -------------------bottom-row----------------------- */
+.bottom-row-section {
+    height: 40px;
+    line-height: 40px;
+    background-color: #1b1b1b;
+}
+.bottom-row-section .bottom-row-parents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bottom-row-section .bottom-row1st li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+    font-size: 10px;
+}
+.bottom-row1st i{
+    color: #2788e3;
+    font-size: 10px;
+}
+.bottom-row1st p{
+    color: #fff;
+    font-size: 15px;
+}
+.bottom-row-section .bottom-row2nd li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+    font-size: 17px;
+}
+.bottom-row-section .bottom-row2nd ul{
+    justify-content: right;
+    display: flex;
+    gap: 5px;
+}
+.bottom-row2nd i{
+    color: #ffffff;
+    font-size: 10px;
 }
