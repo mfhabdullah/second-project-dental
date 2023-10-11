@@ -524,11 +524,11 @@ body{
 .manybg-frth-section::before{
     content: "";
     background-image: url(./img/left-arrow.png);
-    background-size: 20px 20px;
+    background-size: 35px 35px;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     left: 60px;
     top: 4400px;
@@ -536,11 +536,11 @@ body{
 .manybg-frth-section::after{
     content: "";
     background-image: url(./img/next-button.png);
-    background-size: 20px 20px;
+    background-size: 35px 35px;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     right: 60px;
     top: 4400px;
@@ -569,20 +569,22 @@ body{
 .manybg-frth-box .upo::before{
     content: "";
     background-image: url(./img/double\ queation-1.png);
-    background-size: 20px 20px;
+    background-size: 10px 10px;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+    padding: 0 35px 10px 0;
 }
 .manybg-frth-box .upo::after{
     content: "";
     background-image: url(./img/double\ queation-2.png);
-    background-size: 20px 20px;
+    background-size: 10px 10px;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+    padding: 10px 0px 0px 35px;
 }
 .manybg-frth-box-content{
     display: flex;
@@ -808,15 +810,14 @@ body{
     list-style: none;
     display: inline;
     color: #fff;
-    font-size: 10px;
+    font-size: 14px;
+    font-weight: 500;
 }
-.bottom-row1st i{
+.bottom-row-section .bottom-row1st li a{
+    text-decoration: none;
     color: #2788e3;
-    font-size: 10px;
-}
-.bottom-row1st p{
-    color: #fff;
     font-size: 15px;
+    font-weight: 400;
 }
 .bottom-row-section .bottom-row2nd li {
     list-style: none;
