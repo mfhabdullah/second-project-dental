@@ -74,13 +74,14 @@ body{
     padding: 30px 0;
 }
 .banner_head{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 .banner-head-button{
     display: flex;
     gap: 25px;
+    text-align: end;
 }
 .banner-head-button .btn1{
     text-align: center;
@@ -434,39 +435,45 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 50px 0px 0px 100px;
 }
-.help-service .num{
-    display: flex;
-    column-gap: 280px;
-    position: absolute;
-    padding: 10px 0 0 130px;
-}
-.help-service .num .das1{
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
-    border-radius: 33px;
-    color: #fff;
-    background-color: #005b8b;
+.help-service .das1{
+    height: 25px;
+    line-height: 25px;
     text-align: center;
-}
-.help-service .num .das2{
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
-    border-radius: 33px;
-    color: #fff;
+    width: 25px;
+    border-radius: 50%;
     background-color: #005b8b;
-    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 35px;
+    left: 135px;
 }
-.help-service .num .das3{
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
-    border-radius: 33px;
-    color: #fff;
+.help-service .das2{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    border-radius: 50%;
     background-color: #005b8b;
-    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 35px;
+    left: 135px;
 }
+.help-service .das3{
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        width: 25px;
+        border-radius: 50%;
+        background-color: #005b8b;
+        color: white;
+        font-weight: bold;
+        position: relative;
+        top: 35px;
+        left: 135px;
+    }
 .help-service img{
     padding: 7px 0 0 50px;
 }
