@@ -224,7 +224,7 @@ body{
 }
 .service-box .f{
     background-color: aliceblue;
-    width: 350px;
+    max-width: 350px;
     height: 260px;
     padding-top: 20px;
     border-radius: 10px;
