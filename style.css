@@ -710,12 +710,15 @@ body{
 .backgroundimage{
     text-align: center;
 }
+.backgroudimage img{
+    width: 100%;
+}
 /* -------------------manybg-eth-section---------------- */
 .manybg-eth-section {
     height: 310px;
     width: 100%;
-    background-color:#005b8b ;
-    margin-top: 462px;
+    background-color:#005b8b;
+    margin-top: 377px;
 }
 .manybg-eth-content .manybg-eth-head h2{
     text-align: center;
