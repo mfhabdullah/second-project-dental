@@ -1,1 +1,45 @@
-@
+@media only screen and (max-width: 414px) {
+    .toprow-section {
+        height: 50px;
+        line-height: 0px;
+        padding: 15px 0px;
+    }
+    .toprow-section .toprow2nd ul {
+        height: 70px;
+        line-height: 70px;
+        justify-content: center;
+        display: flex;
+    }
+    .toprow-section .toprow1st li {
+        font-size: 7px;
+    }
+    .toprow-section {
+        display: grid;
+    }
+    .toprow-section .toprow-parents {
+        display: inline-block;
+    }
+    .toprow-section {
+        
+    }
+    .banner_head .banner-logo img{
+        height: 65px;
+        width: auto;
+    }
+    .banner_head .banner-head-button {
+        display: none;
+    }
+    .banner-middle h1 {
+        font-size: 25px;
+    }
+    .banner-middle p {
+        font-size: 10px;
+    }
+    .banner-head-button a {
+        font-size: 12px;
+        color: white;
+    }
+    .banner-section {
+        height: 262px;
+    }
+  }

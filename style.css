@@ -418,6 +418,9 @@ body{
     background-color: #fff;
     height: 700%;
 }
+.manybg-th-section .helpall{
+
+}
 .manybg-th-section .wrie{
     text-align: center;
 }
@@ -484,22 +487,49 @@ body{
     background-color: #eff9fd;
     padding: 40px 0 25px 0;
 }
-.help-service-wri{
+/* .help-service-wri{
     display: flex;
     column-gap: 155px;
     padding: 0 110px;
-}
-.help-service-wri h5{
+} */
+.help-service .num1 .weri h5{
     color: #555555;
     font-size: 18px;
     text-align: center;
     padding: 20px 0 10px
 
 }
-.help-service-wri p{
+.help-service .num1 .weri p{
     color: #555555;
     font-size: 8px;
     text-align: center;
+}
+.help-service .num2 .weri h5{
+    color: #555555;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 10px
+
+}
+.help-service .num2 .weri p{
+    color: #555555;
+    font-size: 8px;
+    text-align: center;
+}
+.help-service .num3 .weri h5{
+    color: #555555;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 10px
+
+}
+.help-service .num3 .weri p{
+    color: #555555;
+    font-size: 8px;
+    text-align: center;
+}
+.help-service .weri {
+    padding-right: 100px;
 }
 .manybg-th-btn{
     display: flex;
@@ -802,7 +832,8 @@ body{
     font-size: 25px;
 }
 .manybg-nith-parents .left .p2top-parents{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     column-gap: 110px;
     padding-bottom:60px;
 }
