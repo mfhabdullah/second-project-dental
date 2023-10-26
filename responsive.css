@@ -1,4 +1,4 @@
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 640px) {
     .toprow-section {
         height: 50px;
         line-height: 0px;
@@ -20,7 +20,6 @@
         display: inline-block;
     }
     .toprow-section {
-        
     }
     .banner_head .banner-logo img{
         height: 65px;
@@ -31,9 +30,13 @@
     }
     .banner-middle h1 {
         font-size: 25px;
+        position: relative;
+        top: -142px;
     }
     .banner-middle p {
-        font-size: 10px;
+        font-size: 9px;
+        position: absolute;
+        top: 160px;
     }
     .banner-head-button a {
         font-size: 12px;
@@ -41,5 +44,52 @@
     }
     .banner-section {
         height: 262px;
+    }
+    .banner-head-button .btn1 {
+        position: relative;
+        top: -115px;
+        height: 5px;
+        line-height: 0px;
+        width: 120px;
+    }
+    .banner-head-button .btn2 {
+        position: relative;
+        top: -60px;
+        left: -144px;
+        height: 5px;
+        line-height: 0px;
+        width: 120px;
+    }
+    .service-section .container h4 {
+        font-size: 30px;
+    }
+    .boxes-row .st {
+        height: 50px;
+        line-height: 50px;
+        font-size: 15px;
+    }
+    .boxes-row .nd {
+        height: 50px;
+        line-height: 50px;
+        font-size: 15px;
+    }
+    .boxes-row .rd {
+        height: 50px;
+        line-height: 50px;
+        font-size: 15px;
+    }
+    .service-section .service-content {
+        position: relative;
+        top: -80px;
+    }
+    .container .service-box {
+        row-gap: 20px;
+        display: grid;
+    }
+    .service-box .f {
+        height: 185px;
+    }
+    .service-section .container p {
+        font-size: 9px;
     }
   }
